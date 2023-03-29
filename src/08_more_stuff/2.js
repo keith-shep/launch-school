@@ -1,0 +1,1 @@
+// the hello function references 'greeting' which is not defined, at line 4 of exercise2.js 

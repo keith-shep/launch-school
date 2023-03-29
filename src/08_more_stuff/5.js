@@ -1,0 +1,1 @@
+// splits a string by single white space, reverses the order of the array then maps each to the length of each array element string.
