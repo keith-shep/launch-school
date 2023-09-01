@@ -14,7 +14,7 @@ console.log('The '+ ice_cream_taste +' ice cream melted.');
 let iceCreamTaste = 'chocolate';
 let iceCreamDensity = 10;
 
-while(iceCreamDensity > 0) {
+while (iceCreamDensity > 0) {
   console.log('Drip...');
   iceCreamDensity -= 1;
 }
