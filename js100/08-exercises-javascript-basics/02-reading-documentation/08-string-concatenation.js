@@ -11,3 +11,6 @@ let words = [first, second];
 console.log(words.join(' ')); // method 3
 
 console.log(first.concat(' ', second)); // method 4
+
+
+''.concat(firstName, ' ', lastName); // alternative method which starts with a blank string
