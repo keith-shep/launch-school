@@ -15,4 +15,5 @@
 // } while (counter > 0);
 
 
-// do while will run at least once.
+// `do... while` will run code block then check condition (will run at least once.)
+// `while` will check the condition first then run the code block
