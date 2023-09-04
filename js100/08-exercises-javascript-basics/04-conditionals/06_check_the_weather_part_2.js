@@ -9,5 +9,4 @@ switch (weather) {
     break;
   default:
     console.log("Let's stay inside.");
-    break;
 }
