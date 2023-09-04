@@ -14,4 +14,5 @@ switch (animal) {
 }
 
 
-// will log neigh
+// will log neigh, tweet tweet and *cricket*
+// UPDATE: will search for case: horse then execute all other cases since there is no break statement.
