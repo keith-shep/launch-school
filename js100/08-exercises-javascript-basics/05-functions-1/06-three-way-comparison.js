@@ -3,7 +3,7 @@ function compareByLength(str1, str2) {
     return -1;
   } else if (str1.length > str2.length) {
     return 1;
-  } else if (str1.length === str2.length) {
+  } else {
     return 0;
   }
 }
