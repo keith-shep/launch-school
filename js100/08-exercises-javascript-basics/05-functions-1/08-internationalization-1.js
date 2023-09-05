@@ -1,16 +1,19 @@
 function greet(languageCode) {
-  if (languageCode === 'en') {
-    return 'Hi!';
-  } else if (languageCode === 'fr') {
-    return 'Salut!';
-  } else if (languageCode === 'pt') {
-    return 'Olá!';
-  } else if (languageCode === 'de') {
-    return 'Hallo!';
-  } else if (languageCode === 'sv') {
-    return 'Hej!';
-  } else if (languageCode === 'af') {
-    return 'Haai!';
+  switch (languageCode) {
+    case 'en': 
+      return 'Hi!';
+    case 'fr':
+      return 'Salut!';
+    case 'pt':
+      return 'Olá!';
+    case 'de':
+      return 'Hallo!';
+    case 'sv':
+      return 'Hej!';
+    case 'af':
+      return 'Haai!';
+    default:
+      return 'Hi!'
   }
 }
 
